@@ -1,6 +1,5 @@
 
-## Sessions
+## Sessions                                                                                                                                                                             
 
-    :new<CR>  new session
-    s  list sessions
-    $  name session
+    tmux new -s <session name>  new session
+    
