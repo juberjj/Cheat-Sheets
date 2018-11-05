@@ -1,5 +1,5 @@
 
 ## Sessions                                                                                                                                                                             
 
-    tmux new -s <session name>                  new session
+    tmux new -s <session name>    ### new session
     
