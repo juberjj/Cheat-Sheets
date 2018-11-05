@@ -1,7 +1,7 @@
-tmux - terminal multiplexer
+# tmux - terminal multiplexer
 
 ## Prefix
-All commands in tmux require the prefix shortcut, which by default is ctrl+b. 
+All commands in tmux require the prefix shortcut, which by default is **ctrl+b**.
 Below the prefix will be represented by <prefix>
 
 ## Basics
@@ -44,7 +44,8 @@ Below the prefix will be represented by <prefix>
     reattach to session 
 
 ## Scenario: Share a session between 2 users
-Create 2 different ssh sessions logging in as the same user to the same machine
+    ** Create 2 different ssh sessions logging in as the same user to the same machine ** 
+
     tmux new -s <session-name>  ### Create a new Session
     tmux list-sessions  ### List open sessions    
     tmux attach -t <session-name>    ### Join existing session
