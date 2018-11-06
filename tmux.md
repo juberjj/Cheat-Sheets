@@ -7,7 +7,6 @@ Below the prefix will be represented by <prefix>
 ## Basics
     tmux ### Start
     exit ### Exit
-    <prefix> ### detach the current session and return to shell
     tmux kill-server ### Kill tmux server, along with all sessions
 
 ## Windows                                                                                                                                                                             
@@ -15,6 +14,9 @@ Below the prefix will be represented by <prefix>
     <prefix> ,  ### Rename window
     <prefix> p  ### Previous Window
     <prefix> n  ### Next Window
+    <prefix> &  ### Kill Window
+    <prefix> f  ### find Window
+    <prefix> .  ### Move Window - prompted a number
     <prefix> w  ### List Windows
 
 ## Sessions                                                                                                                                                                             
@@ -27,6 +29,8 @@ Below the prefix will be represented by <prefix>
 ## Panes
     <prefix> "    ### Split Horizontal
     <prefix> %    ### Split Vertical    
+    <prefix> q    ### Show panel numbers
+
     <prefix> x (c)   ### Kill current pane
     <prefix> [arrow key]  ### Move around panes 
 
